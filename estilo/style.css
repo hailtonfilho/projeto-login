@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoits
+------------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes Telas: acima de 1200px
+-------------------------------
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+     background-color: rgb(122, 122, 122);
+}
