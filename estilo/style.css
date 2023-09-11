@@ -42,7 +42,8 @@ section#login{
     height: 500px;
 }
 
-section#logi > div#imagem{
+section#login > div#imagem{
+    display: block;
     background: url('../imagens/pexels-akbph-17374039.jpg') no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -50,6 +51,7 @@ section#logi > div#imagem{
 }
 
 section#login > div#formulario{
+    display: block;
     padding: 10px;
 }
 
