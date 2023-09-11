@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
 </head>
 <body>
     <main>
@@ -14,20 +15,22 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta
+                <br>
+                e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                  <p>
+                  <p id="email">
                       <label for="iema">E-mail;</label>
-                      <input type="email" name="ema" id="iema" autocomplete="email" required>
+                      <input class="es" type="email" name="ema" id="iema" autocomplete="email" required>
                   </p>
-                  <p>
+                  <p id="senha">
                       <label for="isen">Senha:</label>
-                      <input type="password" name="sen" id="isen"
+                      <input class="es" type="password" name="sen" id="isen"
                       required minlength="8"  size="11"
                       autocomplete="current-password" required>
                   </p>
                   <p>
-                      <input type="submit" value="Entrar">
+                      <input id="entrar" type="submit" value="Entrar">
                    </p>
                 </form>
             </div>
