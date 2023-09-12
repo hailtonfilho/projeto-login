@@ -105,7 +105,7 @@ p > input[type=submit]:hover{
 form > p.campo{
     background-color: #5f2c82;
     display: block;
-    width: 100%;
+    width: 99%;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
